@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">tFileTransfer</string>
+
+    <string name="dialog_positive">OK</string>
+    <string name="dialog_negative">Cancel</string>
+    <string name="error_toast">Error: %s</string>
+
+    <!--region FileTransportActivity-->
+    <string name="file_transport_activity_tab_my_apps">MY APPS</string>
+    <string name="file_transport_activity_tab_my_images">MY IMAGES</string>
+    <string name="file_transport_activity_tab_my_videos">MY VIDEOS</string>
+    <string name="file_transport_activity_tab_my_audios">MY AUDIOS</string>
+    <string name="file_transport_activity_tab_my_dir">MY FOLDER</string>
+    <string name="file_transport_activity_tab_remote_dir">REMOTE FOLDER</string>
+    <string name="file_transport_activity_tab_message">MESSAGE</string>
+    <string name="file_count">%d files</string>
+    <string name="connection_error_title">Connection Error</string>
+    <string name="connection_error_message">Connection is closed, please reconnect.</string>
+    <string name="file_transfer_error_title">Transfer Error</string>
+    <string name="downloading_files_dialog_title">Downloading Files (%d/%d)</string>
+    <string name="sending_files_dialog_title">Sending Files (%d/%d)</string>
+    <string name="app_version">Ver: %s</string>
+    <string name="request_share_title">Request Share</string>
+    <string name="request_share_body">Request share %d files.</string>
+    <string name="request_share_positive">Share</string>
+    <string name="request_share_negative">Drop</string>
+    <!--endregion-->
+
+    <!--region ConnectionActivity-->
+    <string name="local_network_connection_title">Connect Remote Device via LocalNetwork</string>
+    <string name="local_network_connection_description">If two devices in the same local network, you can use this way create connection. \n Use QR code scan or UDP broadcast.</string>
+    <string name="broadcast_connection_local_device">Local Device: %s</string>
+    <string name="broadcast_connection_local_ip_address">Local IP Address: %s</string>
+    <string name="broadcast_connection_use_system_broadcast">Use System Broadcast: </string>
+    <string name="local_network_scan_qr_code">Scan QR Code</string>
+    <string name="local_network_show_qr_code">Show QR Code</string>
+    <string name="broadcast_connection_as_receiver">Search Servers</string>
+    <string name="broadcast_connection_as_sender">As Server</string>
+
+    <string name="broadcast_waiting_connect">Waiting connect&#8230;</string>
+    <string name="broadcast_waiting_cancel">Cancel</string>
+
+    <string name="broadcast_request_connect">Request Connect</string>
+    <string name="broadcast_request_accept">Accept</string>
+    <string name="broadcast_request_deny">Deny</string>
+
+    <string name="broadcast_searching_server">Searching&#8230;</string>
+    <string name="broadcast_searching_cancel">Cancel</string>
+
+    <string name="tcp_scan_title">Scan Devices</string>
+    <string name="tcp_scan_tips">You could scan other devices in the same network. When Server Status is working, your device could be scanned by others.</string>
+    <string name="tcp_scan_server_status_active">Server Status: Working</string>
+    <string name="tcp_scan_server_status_error">Server Status: Error</string>
+    <string name="tcp_scan_scan">Scan</string>
+
+    <string name="wifi_p2p_connection_title">Connect via WiFi P2P</string>
+    <string name="wifi_p2p_connection_tips">Just open the WiFi and GPS, close to the target device and system will find it.</string>
+    <string name="wifi_p2p_connection_remote_device">Connected Remote Device\n Name: %s\n Ip Address: %s \n Status: %s</string>
+    <string name="wifi_p2p_connection_local_address">Local Address: %s</string>
+    <string name="wifi_p2p_connection_transfer_files">Transfer Files</string>
+    <string name="wifi_p2p_connection_close_current_connection">Close Connection</string>
+    <string name="local_network_local_address">Local Addresses: </string>
+
+    <string name="request_share_files">Request share %d files.</string>
+    <string name="drop_request_share_files">Drop</string>
+    <!--endregion-->
+
+    <!--region Size-->
+    <string name="size_B">%dB</string>
+    <string name="size_KB">%.2fKB</string>
+    <string name="size_MB">%.2fMB</string>
+    <string name="size_GB">%.2fGB</string>
+    <!--endregion-->
+
+    <!--region FolderMenu-->
+    <string name="folder_menu_select_all_files">Select All Files</string>
+    <string name="folder_menu_unselect_all_files">Unselect All Files</string>
+    <string name="folder_menu_sort_by_date">Sort By Modified Date</string>
+    <string name="folder_menu_sort_by_file_name">Sort By Name</string>
+    <!--endregion-->
+
+    <!--region TransferSettingsMenu-->
+    <string name="transfer_setting_share_folder">Share My Dir</string>
+    <!--endregion-->
+
+    <!--region SettingsDialog-->
+    <string name="settings_title">Settings</string>
+    <string name="setting_download_dir">Download Folder</string>
+    <string name="setting_share_my_dir">Share My Folder</string>
+    <string name="setting_max_connections_size">Max Tcp Connections</string>
+    <!--endregion-->
+
+    <!--region RequestPermission-->
+    <string name="permission_request_title">Request Permission</string>
+    <string name="permission_storage_request_content">tFileTransfer needs MANAGE STORAGE permission to share your files.</string>
+    <!--endregion-->
+
+    <!--region FolderSelectActivity-->
+    <string name="folder_select_title">Select a Folder</string>
+    <string name="folder_select_create">Create a new folder</string>
+    <string name="folder_select_error_title">Select folder fail</string>
+    <string name="folder_select_error_body">Error: %s</string>
+    <string name="folder_select_create_folder_error">Create folder fail</string>
+    <string name="folder_select_create_new_folder_hint">Input folder name</string>
+    <!--endregion-->
+
+    <!--region Media-->
+    <string name="media_artist_name">Artist: %s</string>
+    <string name="media_album_name">Album: %s</string>
+    <!--endregion-->
+
+</resources>
