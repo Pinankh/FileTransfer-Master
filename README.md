@@ -20,3 +20,10 @@ Create connections ways:
 
 <img src="screenshots/screenshot_7.png" height="40%" width="40%"/>
 
+<!-- CONTACT -->
+## Contact
+
+Pinankh Patel - pinankhpatel@hotmail.com
+
+Linkedin: https://www.linkedin.com/in/pinankh-patel-19400350/
+
